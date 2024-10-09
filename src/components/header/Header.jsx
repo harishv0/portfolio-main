@@ -43,11 +43,11 @@ const Header = () => {
                         </a>
                     </li>
 
-                    {/* <li className="nav_item" onClick={() => setToggle(true)}>
+                     <li className="nav_item" onClick={() => setToggle(true)}>
                         <a href="#services" className={activeNav === "#services" ? "nav_link active-link" : "nav_link"} onClick={(e) => {setactiveNav("#services"); e.preventDefault()}} style={{color: 'var(--title-color-dark)', cursor:'not-allowed'}}>
                             <i className="uil uil-briefcase-alt nav_icon"></i> Services
                         </a>
-                    </li> */}
+                    </li> 
 
                     <li className="nav_item" onClick={() => setToggle(false)}>
                         <a href="#projects" className={activeNav === "#projects" ? "nav_link active-link" : "nav_link"} onClick={() => setactiveNav("#projects")}>

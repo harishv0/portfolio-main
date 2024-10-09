@@ -41,11 +41,13 @@ const Projects = () => {
             {Data.map((data) => {
                 return(
                     <SwiperSlide className="projects_card" key={data.id}>
-                        <img src={data.image} alt="" className='projects_img'/>
-
-                        <h3 className="projects_title">{data.title}</h3>
+                        <a href={data.link}>
+                            <img src={data.image} alt="" className='projects_img'/>
+                        </a>
+                        <h3 className="projects_title"> {data.title}</h3>
                         <p className="projects_description">{data.description}</p>
                         <br/>
+                        
                         
                     </SwiperSlide>
                 )
