@@ -33,8 +33,6 @@ const Footer = () => {
                 <i className="uil uil-instagram"></i>
                 </a>
             </div>
-
-            <span className="footer_copy">&#169; Source Crypticalcoder</span>
         </div>
     </footer>
   )

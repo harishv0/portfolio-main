@@ -21,6 +21,14 @@ const FrameWorks = () => {
 
                     <div>
                         <h3 className="skills_name">Springboot</h3>
+                        <span className="skills_level">Intermediate</span>
+                    </div>
+                </div>
+                <div className="skills_data">
+                    <i className="bx bx-badge-check"></i>
+
+                    <div>
+                        <h3 className="skills_name">React Native</h3>
                         <span className="skills_level">Basic</span>
                     </div>
                 </div>

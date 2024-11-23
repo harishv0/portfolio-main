@@ -21,4 +21,11 @@ export const Data = [
         link: null,
         description:"This website to show my portfolio and it's user effective and dynamic user interface",
     },
+    {
+        id: 4,
+        image: 'https://res.cloudinary.com/dx9vetes7/image/upload/v1732347948/Screenshot_2024-11-23_131445_e3cq35.png',
+        title: "Harish Media",
+        link: 'https://harishmedia.netlify.app/',
+        description:"The website HarishMedia is a partial clone of Facebook, designed to mimic some key features and functionality of the social media platform. While it is not a full-scale replica",
+    },
 ]
