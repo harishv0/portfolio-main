@@ -24,15 +24,25 @@ const FrameWorks = () => {
                         <span className="skills_level">Intermediate</span>
                     </div>
                 </div>
-                <div className="skills_data">
-                    <i className="bx bx-badge-check"></i>
+            </div>
+            <div className="skills_group">
+                    <div className="skills_data">
+                        <i className="bx bx-badge-check"></i>
 
-                    <div>
-                        <h3 className="skills_name">React Native</h3>
-                        <span className="skills_level">Basic</span>
+                        <div>
+                            <h3 className="skills_name">WordPress</h3>
+                            <span className="skills_level">Intermediate</span>
+                        </div>
+                    </div>
+                    <div className="skills_data">
+                        <i className="bx bx-badge-check"></i>
+
+                        <div>
+                            <h3 className="skills_name">Zoho Creators</h3>
+                            <span className="skills_level">Intermediate</span>
+                        </div>
                     </div>
                 </div>
-            </div>
         </div>
     </div>
   )

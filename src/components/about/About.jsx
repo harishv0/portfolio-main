@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
-import aboutImg from '../../assets/header-img.jpeg'
-import cv from '../../assets/Harish_V (3).pdf'
+import aboutImg from '../../assets/Harish_V.jpg'
+import cv from '../../assets/Harish_V.pdf'
 import Info from './Info'
 import files from '../../assets/files.svg'
 
@@ -17,8 +17,10 @@ const About = () => {
                 <Info/>
 
                 <p className="about_description">
-                  I aspire to become a proficient full-stack web developer known for my adaptability and innovative problem-solving skills. My goal is to create user-centric software solutions across diverse industries, while continually learning and contributing to open-source projects.
-                </p>
+                  I aspire to become a skilled Java Developer known for adaptability and problem-solving. I aim to build scalable, user-focused software using Java,
+                  Spring Boot, and modern backend technologies. I'm also passionate about web development, with hands-on experience from my internship
+                  at HHCreates, where I worked on real-world projects using HTML, CSS, JavaScript, WordPress, and Zoho Creator. I’m committed to continuous
+                  learning and contributing to open-source projects.</p>
                 <a href={cv} download="Harish_V" className="button button_flex">Download CV <img src={files} style={{marginLeft: '10px'}} alt='files'/></a>
             </div>
         </div>

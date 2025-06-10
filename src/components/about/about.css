@@ -41,6 +41,7 @@
 
 .about_description {
     padding: 0 4rem 0 0;
+    text-align: justify;
     margin-bottom: var(--mb-2-5);
 }
 

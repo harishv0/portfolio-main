@@ -3,7 +3,7 @@ import send from '../../assets/send.svg'
 import hello from '../../assets/hand.svg'
 
 const Data = () => {
-  const toRotate = [" Web "]
+  const toRotate = [" Web ", "Software"]
   const [loopNum, setLoopNum] = useState(0)
   const [isDeleting, setisDeleting] = useState(false)
   const [text, settext] = useState("")
